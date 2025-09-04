@@ -13,7 +13,7 @@
 ######################################
 # target
 ######################################
-TARGET = LABORATORY_PRACTICE
+TARGET = STM32F429ZI
 
 
 ######################################
@@ -38,7 +38,6 @@ BUILD_DIR = build
 C_SOURCES =  \
 CMSIS/Devices/STM32F4xx/Src/system_stm32f4xx.c \
 Core/Src/main.c \
-
 
 # ASM sources
 ASM_SOURCES =  \
