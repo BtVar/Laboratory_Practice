@@ -9,7 +9,6 @@ volatile short int frequency_button = 0;
 
 int main(void)
 {
-    //
     
     GPIO_Init();
 
