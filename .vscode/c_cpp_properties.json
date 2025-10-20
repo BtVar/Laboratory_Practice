@@ -3,13 +3,15 @@
         {
             "name": "STM32 F4",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/CMSIS/Include",
+                "${workspaceFolder}/CMSIS/Devices/STM32F4xx/Inc"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE",
-                "STM32F429xx"
+                "STM32F411xx"
             ],
             "compilerPath": "C:/SysGCC/arm-eabi/bin/arm-none-eabi-gcc.exe",
             "cStandard": "c17",
@@ -19,7 +21,6 @@
                 "-mcpu=cortex-m4",
                 "-mthumb"
             ]
-
         }
     ],
     "version": 4
