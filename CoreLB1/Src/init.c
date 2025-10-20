@@ -1,4 +1,4 @@
-#include "C:\program_microcontrols\Repos\Laboratory_Practice\Core\Inc\init.h"
+#include "C:\Users\parni\Git_repos\Laboratory_Practice\CoreLB1\Inc\init.h"
 
 
 void GPIO_Init(void)
